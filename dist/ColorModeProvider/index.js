@@ -7,7 +7,7 @@ exports.LightMode = exports.DarkMode = exports.useColorMode = exports["default"]
 
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 
-var _core = require("@emotion/core");
+var _core = require("@emotion/react");
 
 var _react = require("react");
 

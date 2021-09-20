@@ -28,7 +28,7 @@ function _templateObject() {
 }
 
 /** @jsx jsx */
-import { jsx, keyframes } from "@emotion/core";
+import { jsx, keyframes } from "@emotion/react";
 import { useColorMode } from "../ColorModeProvider";
 import Box from "../Box";
 import { forwardRef } from "react";

@@ -2,7 +2,7 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutP
 import _extends from "@babel/runtime/helpers/extends";
 
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import { DialogContent, DialogOverlay } from "@reach/dialog";
 import { forwardRef } from "react";
 import { Transition } from "react-spring/renderprops.cjs";

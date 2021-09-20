@@ -11,7 +11,7 @@ var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runt
 
 var _react = require("react");
 
-var _core = require("@emotion/core");
+var _core = require("@emotion/react");
 
 var _Flex = _interopRequireDefault(require("../Flex"));
 

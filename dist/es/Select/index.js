@@ -2,7 +2,7 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutP
 import _extends from "@babel/runtime/helpers/extends";
 
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import { forwardRef } from "react";
 import Input from "../Input";
 import { useColorMode } from "../ColorModeProvider";

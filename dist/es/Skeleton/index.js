@@ -46,7 +46,7 @@ function _templateObject() {
 import { Fragment, useMemo } from "react";
 import { useTheme } from "../ThemeProvider";
 import { useColorMode } from "../ColorModeProvider";
-import { css, jsx, keyframes } from "@emotion/core";
+import { css, jsx, keyframes } from "@emotion/react";
 import Box from "../Box";
 
 var skeletonGlow = function skeletonGlow(colorStart, colorEnd) {

@@ -7,7 +7,7 @@ exports["default"] = void 0;
 
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 
-var _core = require("@emotion/core");
+var _core = require("@emotion/react");
 
 var _Box = _interopRequireDefault(require("../Box"));
 

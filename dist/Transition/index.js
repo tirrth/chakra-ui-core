@@ -11,7 +11,7 @@ var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runt
 
 var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
-var _core = require("@emotion/core");
+var _core = require("@emotion/react");
 
 var _renderprops = require("react-spring/renderprops.cjs");
 

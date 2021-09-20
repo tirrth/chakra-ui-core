@@ -5,7 +5,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 exports.__esModule = true;
 exports.useTheme = exports["default"] = void 0;
 
-var _core = require("@emotion/core");
+var _core = require("@emotion/react");
 
 var _emotionTheming = require("emotion-theming");
 

@@ -2,7 +2,7 @@ import _extends from "@babel/runtime/helpers/extends";
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
 
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import toaster from "toasted-notes";
 import { useCallback } from "react";
 import { Alert, AlertIcon, AlertTitle, AlertDescription } from "../Alert";

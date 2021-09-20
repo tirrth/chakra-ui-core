@@ -10,7 +10,7 @@ function _templateObject() {
   return data;
 }
 
-import { css } from "@emotion/core";
+import { css } from "@emotion/react";
 
 var tailwindPreflight = function tailwindPreflight(theme) {
   return css(_templateObject(), theme.fonts.body, theme.fonts.mono);

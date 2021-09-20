@@ -18,7 +18,7 @@ var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runt
 
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 
-var _core = require("@emotion/core");
+var _core = require("@emotion/react");
 
 var _autoId = require("@reach/auto-id");
 

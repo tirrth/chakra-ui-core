@@ -2,7 +2,7 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutP
 import _extends from "@babel/runtime/helpers/extends";
 
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import { useId } from "@reach/auto-id";
 import { createContext, forwardRef, useContext, useEffect, useRef, useState } from "react";
 import Box from "../Box";

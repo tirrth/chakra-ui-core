@@ -10,7 +10,7 @@ function _templateObject() {
   return data;
 }
 
-import { css } from "@emotion/core";
+import { css } from "@emotion/react";
 import Color from "color";
 export var get = function get(color, hue) {
   return color + "." + hue;

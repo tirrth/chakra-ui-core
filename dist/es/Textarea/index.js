@@ -2,7 +2,7 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutP
 import _extends from "@babel/runtime/helpers/extends";
 
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import { forwardRef, useLayoutEffect, useRef, useState } from "react";
 import Input from "../Input";
 var Textarea = forwardRef(function (props, ref) {

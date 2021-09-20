@@ -13,7 +13,7 @@ function _templateObject() {
 }
 
 /** @jsx jsx */
-import { jsx, keyframes } from "@emotion/core";
+import { jsx, keyframes } from "@emotion/react";
 import { forwardRef } from "react";
 import Box from "../Box";
 import VisuallyHidden from "../VisuallyHidden";

@@ -11,7 +11,7 @@ function _templateObject() {
 }
 
 /** @jsx jsx */
-import { jsx, Global, css } from "@emotion/core";
+import { jsx, Global, css } from "@emotion/react";
 import { useColorMode } from "../ColorModeProvider";
 import preflight from "./preflight";
 

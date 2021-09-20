@@ -11,7 +11,7 @@ var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends")
 
 var _taggedTemplateLiteralLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/taggedTemplateLiteralLoose"));
 
-var _core = require("@emotion/core");
+var _core = require("@emotion/react");
 
 var _ColorModeProvider = require("../ColorModeProvider");
 

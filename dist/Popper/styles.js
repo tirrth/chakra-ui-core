@@ -7,7 +7,7 @@ exports["default"] = void 0;
 
 var _taggedTemplateLiteralLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/taggedTemplateLiteralLoose"));
 
-var _core = require("@emotion/core");
+var _core = require("@emotion/react");
 
 function _templateObject() {
   var data = (0, _taggedTemplateLiteralLoose2["default"])(["\n    [x-arrow] {\n      width: ", ";\n      height: ", ";\n      position: absolute;\n      transform: rotate(45deg);\n\n      &::before {\n        content: \"\";\n        width: ", ";\n        height: ", ";\n        position: absolute;\n        z-index: -1;\n      }\n    }\n\n    &[x-placement^=\"top\"] {\n      margin-bottom: ", ";\n      transform-origin: bottom center;\n    }\n\n    &[x-placement^=\"top\"] [x-arrow] {\n      bottom: ", ";\n\n      &::before {\n        box-shadow: 2px 2px 2px 0 ", ";\n      }\n    }\n\n    &[x-placement^=\"bottom\"] {\n      margin-top: ", ";\n      transform-origin: top center;\n    }\n\n    &[x-placement^=\"bottom\"] [x-arrow] {\n      top: ", ";\n\n      &::before {\n        box-shadow: -1px -1px 1px 0 ", ";\n      }\n    }\n\n    &[x-placement^=\"right\"] {\n      margin-left: ", ";\n      transform-origin: left center;\n    }\n\n    &[x-placement^=\"right\"] [x-arrow] {\n      left: ", ";\n\n      &::before {\n        box-shadow: -1px 1px 1px 0 ", ";\n      }\n    }\n\n    &[x-placement^=\"left\"] {\n      margin-right: ", ";\n      transform-origin: right center;\n    }\n\n    &[x-placement^=\"left\"] [x-arrow] {\n      right: ", ";\n      &::before {\n        box-shadow: 1px -1px 1px 0 ", ";\n      }\n    }\n  "]);

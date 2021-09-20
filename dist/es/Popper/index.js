@@ -14,7 +14,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
  */
 
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import React, { forwardRef, useEffect, useLayoutEffect, useRef, useImperativeHandle, useState, useCallback } from "react";
 import PopperJS from "popper.js";
 import Portal from "../Portal";

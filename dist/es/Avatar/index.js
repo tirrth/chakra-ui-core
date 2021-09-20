@@ -2,7 +2,7 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutP
 import _extends from "@babel/runtime/helpers/extends";
 
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import useAvatarStyle, { avatarSizes } from "./styles";
 import { useHasImageLoaded } from "../Image";
 import { useTheme } from "../ThemeProvider";

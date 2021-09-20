@@ -9,7 +9,7 @@ import _extends from "@babel/runtime/helpers/extends";
  */
 
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import { forwardRef, useRef, useState, useCallback, createContext, useContext } from "react";
 import Box from "../Box";
 import useSliderStyle from "./styles";

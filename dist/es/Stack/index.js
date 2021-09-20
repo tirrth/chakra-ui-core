@@ -3,7 +3,7 @@ import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutP
 
 /** @jsx jsx */
 import { forwardRef } from "react";
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import { Children, cloneElement, isValidElement } from "react";
 import Flex from "../Flex";
 import Box from "../Box"; // TODO: Reduce complexity by deprecating isInline and isReversed prop

@@ -23,7 +23,7 @@ function _templateObject() {
 }
 
 /** @jsx jsx */
-import { jsx, keyframes, css } from "@emotion/core";
+import { jsx, keyframes, css } from "@emotion/react";
 import { useColorMode } from "../ColorModeProvider";
 import Box from "../Box";
 import { generateStripe } from "../theme/colors-utils";

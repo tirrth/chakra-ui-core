@@ -2,7 +2,7 @@ import _extends from "@babel/runtime/helpers/extends";
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/objectWithoutPropertiesLoose";
 
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import { Transition } from "react-spring/renderprops.cjs";
 import { ModalHeader, ModalFooter, ModalBody, ModalOverlay, ModalContent } from "../Modal";
 import CloseButton from "../CloseButton";

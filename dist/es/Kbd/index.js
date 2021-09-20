@@ -1,7 +1,7 @@
 import _extends from "@babel/runtime/helpers/extends";
 
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx } from "@emotion/react";
 import Box from "../Box";
 import { useColorMode } from "../ColorModeProvider";
 

@@ -13,7 +13,7 @@ var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/de
 
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
 
-var _core = require("@emotion/core");
+var _core = require("@emotion/react");
 
 var _react = _interopRequireWildcard(require("react"));
 

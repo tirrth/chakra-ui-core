@@ -17,7 +17,7 @@ var _ThemeProvider = require("../ThemeProvider");
 
 var _ColorModeProvider = require("../ColorModeProvider");
 
-var _core = require("@emotion/core");
+var _core = require("@emotion/react");
 
 var _Box = _interopRequireDefault(require("../Box"));
 

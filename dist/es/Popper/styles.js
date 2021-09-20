@@ -10,7 +10,7 @@ function _templateObject() {
   return data;
 }
 
-import { css } from "@emotion/core";
+import { css } from "@emotion/react";
 
 var getPopperArrowStyle = function getPopperArrowStyle(_ref) {
   var _ref$arrowSize = _ref.arrowSize,

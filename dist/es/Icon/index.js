@@ -13,7 +13,7 @@ function _templateObject() {
 }
 
 /** @jsx jsx */
-import { jsx, ThemeContext } from "@emotion/core";
+import { jsx, ThemeContext } from "@emotion/react";
 import styled from "@emotion/styled";
 import { useContext, forwardRef } from "react";
 import Box from "../Box";
