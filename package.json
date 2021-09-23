@@ -20,22 +20,15 @@
     "version": "yarn build"
   },
   "dependencies": {
-    "@reach/auto-id": "0.10.2",
     "@styled-system/css": "5.1.5",
     "@styled-system/should-forward-prop": "5.1.5",
-    "@types/styled-system": "5.1.9",
-    "aria-hidden": "^1.1.1",
-    "body-scroll-lock": "^3.0.1",
     "color": "3.1.2",
-    "copy-to-clipboard": "3.3.1",
-    "exenv": "^1.2.2",
-    "popper.js": "^1.15.0",
     "react-animate-height": "2.0.21",
-    "react-focus-lock": "^2.2.1",
-    "react-spring": "^8.0.27",
     "styled-system": "5.1.5",
-    "toasted-notes": "3.2.0",
     "use-dark-mode": "2.3.1"
+  },
+  "devDependencies": {
+    "@types/styled-system": "5.1.9"
   },
   "peerDependencies": {
     "@emotion/react": "^11.0.0",

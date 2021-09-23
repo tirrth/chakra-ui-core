@@ -11,8 +11,6 @@ var _emotionTheming = require("@emotion/react");
 
 var _react = require("react");
 
-var _theme = _interopRequireDefault(require("../theme"));
-
 /** @jsx jsx */
 var ThemeProvider = function ThemeProvider(_ref) {
   var theme = _ref.theme,
@@ -20,10 +18,6 @@ var ThemeProvider = function ThemeProvider(_ref) {
   return (0, _core.jsx)(_emotionTheming.ThemeProvider, {
     theme: theme
   }, children);
-};
-
-ThemeProvider.defaultProps = {
-  theme: _theme["default"]
 };
 
 var useTheme = function useTheme() {
